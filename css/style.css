@@ -42,6 +42,11 @@ li {
 p {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "Abel" sans-serif;
+}
+
+h3 {
+  font-family: "Abel", sans-serif;
 }
 
 body {
