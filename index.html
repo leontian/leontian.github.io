@@ -8,19 +8,34 @@
     <![endif]-->
   </head>
   <body>
+    <!-- import Google font -->
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
-    <nav class="fixed-nav-bar">
-      <ul>
-        <li><a class="nav-font" href="/">home</a></li>
-        <li><a class="nav-font" href="">about</a></li>
-<!--        <li><a class="nav-font" href="">Hi</a></li>-->
-<!--        <li><a class="nav-font" href="">Hi</a></li>-->
-      </ul>
+    <nav>
+      <a class="nav-font" href="/">home</a> |
+      <a class="nav-font" href="">about</a>
     </nav>
+    <!-- import jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 1){  
+        $('nav').addClass("sticky");
+      }
+      else{
+        $('nav').removeClass("sticky");
+      }
+    });
+    </script>
+    <div class="show-off">
     <h3>Some cool designs!</h3>
     <p><a target="_self" href="/videobg.html">Fire</a></p>
     <h3>Blog powered by Jekyll!</h3>
     <p><a target="_self" href="/jekyll">Blog</a></p>
+    </div>
+<a class="twitter-timeline" href="https://twitter.com/hashtag/china" data-widget-id="605116479344910336">#china Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div class="main-text"> 
+  </div> 
   </body>
 </html>
