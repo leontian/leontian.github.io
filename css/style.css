@@ -57,8 +57,7 @@ body {
   position: absolute;
   margin: 0px;
   width: 100%;
-  background-color: #c7c7c7;
-  background: url(/img/panda.jpg) no-repeat bottom center scroll
+  background: #c7c7c7 url(/img/panda.jpg) no-repeat bottom center scroll;
 }
 
 
