@@ -3,7 +3,7 @@ layout: post
 title: "CS108 Java Notes - HW2"
 ---
 
-P Inheritance2
+## 14 OP Inheritance2
 
 ### Instances 
 
