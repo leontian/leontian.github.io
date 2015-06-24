@@ -18,6 +18,8 @@ title: "Bookmarks"
 
 #### Algorithm
 
+1. Stanford CS161: [http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms)
+
 
 #### Machine Learning
 
