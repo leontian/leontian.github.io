@@ -3,11 +3,13 @@ layout: post
 title: "Linux Shell"
 ---
 
-h1. {{ page.title }}
-
 1. What's sticky bit and what is it used for?
+  
+  saves information about permisssion. can be set by chmod
 
 2. How to check content at a certain location in gdb?
+
+  x
 
 3. Find all files whose name start with "Hello".
 
