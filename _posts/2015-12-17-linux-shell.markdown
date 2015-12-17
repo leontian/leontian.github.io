@@ -21,6 +21,8 @@ title: "Linux Shell"
 
 5. Find all files in the current directory and subdirectories whose name contains "good" ignoring case.
 
+	find -iname "\*good*"
+
 6. How to check file type?
 
 	file
