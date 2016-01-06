@@ -5,7 +5,6 @@ title: "Linux Shell"
 
 1. What's sticky bit and what is it used for?
   
-	saves information about permisssion. can be set by chmod
 
 2. How to check content at a certain location in gdb?
 
