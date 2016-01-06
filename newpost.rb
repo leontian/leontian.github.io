@@ -15,8 +15,6 @@ layout: post
 title: "#{ARGV[0]}"
 ---
 
-h1. {{ page.title }}
-
 END
  
 File.open(post, 'w') do |f|
